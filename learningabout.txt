@@ -1,0 +1,19 @@
+DOM é Document Object Model, é o que o browser usa para mostrar a pagina da web ou appp e em  javascript é facil de manipular a DOM.
+Demora muito tempo para que as alterações do Dom aconteçam. O navegador precisa fazer duas operações realmente intensivas. Uma é repintar. 
+Isso é alterar um elemento e adicionado a uma página e depois exibir novamente, que é para recalcular o layout da página e mova as coisas, se necessário.
+Então, mudar o Dom foi uma operação muito cara.
+
+Babel ->  faz com que todos os navegadores interpretem o javascript e nao causem conflitos entre eles.
+
+webpack -> é um empacotador de modulos
+
+Todo componente tem uma classe filha;
+
+<Pai>
+
+tudo que estiver dentro é filho de pai
+</Pai>
+
+
+bind: Agora, o que é o bind, o bind é um método em qualquer função que retorna uma nova função em que o o contexto disso é definido como o que passamos para ele e o contexto que estamos definindo 
+aqui é a palavra-chave "this" que é definida dentro do nosso construtor e sabe que é nosso componente 
